@@ -19,11 +19,6 @@ class URLRepository:
         return new_url
 
     @classmethod
-    def get_all(db: Session):
-        urls = db.query(URL).all()
-        return urls
-
-    @classmethod
     def get_by_key(cls, key: str, db: Session):
         url = db.query(URL).filter(URL.key == key).first()
         return url
