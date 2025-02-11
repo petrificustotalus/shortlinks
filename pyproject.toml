@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "shortlinks"
+version = "0.1.0"
+description = ""
+authors = ["petrificustotalus <natalka_nowak@tlen.pl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.8"
+uvicorn = "^0.34.0"
+sqlalchemy = "^2.0.38"
+validators = "^0.34.0"
+pydantic-settings = "^2.7.1"
+psycopg2 = "^2.9.10"
+pytest = "^8.3.4"
+httpx = "^0.28.1"
+pytest-env = "^1.1.5"
+sqlalchemy-utils = "^0.41.2"
+psycopg2-binary = "^2.9.10"
+sqlmodel = "^0.0.22"
+isort = "^6.0.0"
+black = "^25.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
