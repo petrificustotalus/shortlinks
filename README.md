@@ -3,14 +3,6 @@
 ----
 
 ## How to run
-### Create a .env file with the following variables:
-```
-POSTGRES_DB={POSTGRES_DB}
-POSTGRES_USER={POSTGRES_USER}
-POSTGRES_PASSWORD={POSTGRES_PASSWORD}
-POSTGRES_HOST={POSTGRES_HOST}
-PORT={PORT}
-```
 
 ### Requirements
 - Pyenv
@@ -32,6 +24,5 @@ PORT={PORT}
 
 ## Run pytest localy:
 - setup local environement
-- export ENV=testing
 - make sure `postgres-test` is up
 - run `pytest`
